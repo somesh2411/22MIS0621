@@ -1,0 +1,6 @@
+import dotenv from "dotenv";
+
+dotenv.config();
+
+export const BASE_URL = process.env.BASE_URL || "";
+export const ACCESS_TOKEN = process.env.ACCESS_TOKEN || "";
